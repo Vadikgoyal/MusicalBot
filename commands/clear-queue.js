@@ -9,5 +9,6 @@ exports.run = async (client, message) => {
     client.player.clearQueue(message);
 
     message.channel.send(`The queue has just been removed ${emotes.success}`);
+    
 
 };
